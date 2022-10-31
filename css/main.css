@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1440px;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 112px;
+}
+
+nav {
+    display: flex;
+}
+
+header ul,
+li {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    list-style: none;
+}
+
+nav>a {
+    padding: 25px 30px 17px 30px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-left: 333px;
+    text-decoration: none;
+    color: black;
+}
+
+nav>a:hover {
+    background-color: #FF9900;
+    color: white;
+    transition: .7s;
+}
+
+/* section */
+
+section>div {
+    display: flex;
+    margin-left: 112px;
+    margin-top: 113px;
+}
+
+section p {
+font-size: 18px;
+padding-top: 30px;
+}
+section h1{
+    Font-size:44px;
+}
+section .buttons
+{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    align-items: center;
+}
+section .buttons>a{
+    text-decoration: none;
+}
+.buttons__first-a
+{
+    background-color: #FF9900;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    color: black;
+}
+.buttons__second-a{
+    color: #FF9900;
+}
+.image>img{
+    margin-left: 400px;
+}
+section h2{
+    text-align: center;
+    margin-top: 161px;
+    font-size: 36px;
+}
+.container{
+    margin-left: 122px;
+    gap: 262px;
+}
+ h3{
+    padding-top: 30px;
+}
+.sign{
+    margin-left: 920px;
+    margin-top: 80px;
+}
+.sign-up{
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    background-color: #FF7549;
+    border-radius: 5px;
+}
+.wrapper{
+    margin-left: 122px;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+.wrapper p{
+    padding-top: 50px;
+}
+.a{
+    display: flex;
+    gap: 30px;
+    padding-top: 24px;
+}
+.a a{
+    border-radius: 90px;
+    border: 1px solid black;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    padding: 0px 20px 0px 20px ;
+}
+.a a:hover{
+    background-color: #FF9900;
+    transition: 1s;
+}
+/* box */
+.box{
+    display: flex;
+    gap: 50px;
+}
+.box:hover{
+    cursor: pointer;
+}
+.first{
+    width: 377px;
+    margin-left: 122px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.first h4{
+    padding-top: 24px;
+}
+.first img{
+    border-radius: 5px;
+}
+.first div{
+    display: flex;
+    gap: 20px;
+}
+.first div a{
+    margin-top: 29px;
+    border-radius: 90px;
+    border: 1px solid black;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    padding: 0px 20px 0px 20px ;
+}
+.first div a:hover{
+    background-color: #FF9900;
+    transition: .7s;
+}
+.second{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.second img{
+    border-radius: 5px;
+}
+.second h4{
+    padding-top: 24px;
+}
+.second div{
+    margin-top: 29px;
+}
+.second a{
+    border-radius: 90px;
+    border: 1px solid black;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    padding: 0px 20px 0px 20px ;
+}
+.second a:hover{
+    background-color: #FF9900;
+    transition: .7s;
+}
+.third{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.third img{
+    border-radius: 5px;
+}
+.third h4{
+    padding-top: 24px;
+    color: #FF9900;
+}
+.third div{
+    display: flex;
+    margin-top: 29px;
+    gap: 9px;
+}
+.third a{
+    border-radius: 90px;
+    border: 1px solid black;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    padding: 0px 20px 0px 20px ;
+}
+.third a:hover{
+    background-color: #FF9900;
+    transition: .7s;
+}
+/* box-second */
+
+.box-second{
+    display: flex;
+}
+.box-second .first{
+    margin-left: 122px;
+}
+.box-second .first h4{
+    padding-top: 24px;
+}
+
+.box-a{
+    padding-top: 29px;
+}
+.box-second>.second{
+    margin-left: 540px;
+}
+.box-second:hover{
+    cursor: pointer;
+}
+/* box-third */
+.box-third{
+    display: flex;
+    gap: 50px;
+}
+.box:hover{
+    cursor: pointer;
+}
+.first{
+    width: 377px;
+    margin-left: 122px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.first h4{
+    padding-top: 24px;
+}
+.first img{
+    border-radius: 5px;
+}
+.first div{
+    display: flex;
+    gap: 20px;
+}
+.first div a{
+    margin-top: 29px;
+    border-radius: 90px;
+    border: 1px solid black;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    padding: 0px 20px 0px 20px ;
+}
+.first div a:hover{
+    background-color: #FF9900;
+    transition: .7s;
+}
+.second{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.second img{
+    border-radius: 5px;
+}
+.second h4{
+    padding-top: 24px;
+}
+.second div{
+    margin-top: 29px;
+}
+.second a{
+    border-radius: 90px;
+    border: 1px solid black;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    padding: 0px 20px 0px 20px ;
+}
+.second a:hover{
+    background-color: #FF9900;
+    transition: .7s;
+}
+.three{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.three img{
+    border-radius: 5px;
+}
+.three .h4{
+    padding-top: 24px;
+}
+.three div{
+    display: flex;
+    margin-top: 29px;
+    gap: 9px;
+}
+.three a{
+    border-radius: 90px;
+    border: 1px solid black;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    padding: 0px 20px 0px 20px ;
+}
+.three a:hover{
+    background-color: #FF9900;
+    transition: .7s;
+}
+.main{
+    padding-left: 122px;
+}
+.main h3{
+    padding-top: 24px;
+    font-size: 34px;
+}
+.main p{
+    padding-top: 24px;
+}
+/* info */
+.info{
+   margin-left: 422px;
+   margin-top: 29px;
+}
+.info .one{
+    align-items: center;
+    padding-top: 50px;
+}
+.info .one a{
+    text-decoration: none;
+    color: #1943EF;
+}
+.info .one div{
+    margin-left: 200px;
+    margin-top: -90px;
+}
+.info .two{
+    margin-left: 400px;
+    margin-top: -120px;
+}
+.info .two div{
+    margin-left: 200px;
+    margin-top: -90px;
+}
+.info .two a{
+    text-decoration: none;
+    color: #1943EF;
+}
+.info .thre{
+    margin-left: 800px;
+    margin-top: -120px;
+}
+.info .thre div{
+    margin-left: 200px;
+    margin-top: -90px;
+}
+.info .thre a{
+    text-decoration: none;
+    color: #1943EF;
+}
